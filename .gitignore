@@ -1,0 +1,6 @@
+doc_embeddings.npy
+clusterer.pkl
+.venv
+__pycache__
+*.pyc
+data/
