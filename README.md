@@ -84,7 +84,7 @@ Cache stats:
 
 ## How It Works
 
-Raw Usenet posts contain a lot of noise — quoted reply lines, email headers, signatures, URLs. These get stripped before embedding. Posts under 20 words after cleaning are dropped since they carry no useful content.
+Raw Usenet posts contain a lot of noise, such as quoted reply lines, email headers, signatures, URLs. These get stripped before embedding. Posts under 20 words after cleaning are dropped since they carry no useful content.
 
 Embeddings use `all-MiniLM-L6-v2`. Fast on CPU, 384 dimensions, works well for retrieval on this scale. Embeddings and the clusterer are saved to disk after the first run so subsequent startups are fast.
 
