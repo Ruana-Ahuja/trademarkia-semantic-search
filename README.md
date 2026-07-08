@@ -1,6 +1,6 @@
 # Semantic Search System — 20 Newsgroups
 
-Built for the Trademarkia AI/ML Engineer task. Takes the 20 Newsgroups dataset (~20k Usenet posts), embeds them, clusters them using Fuzzy C-Means, and exposes a semantic search API with a cache that recognises paraphrased queries.
+Built a Semantic Search Engine that takes the 20 Newsgroups dataset (~20k Usenet posts), embeds them, clusters them using Fuzzy C-Means, and exposes a semantic search API with a cache that recognises paraphrased queries.
 
 ## Project Structure
 ```
